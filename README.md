@@ -2,7 +2,7 @@
 
 I will populate this later :D
 
-Color Pallete: [Catppuccin](https://catppuccin.ryanccn.dev/palette)
+Color Palette: [Catppuccin](https://catppuccin.ryanccn.dev/palette)
 
 # Screen Shot
 
