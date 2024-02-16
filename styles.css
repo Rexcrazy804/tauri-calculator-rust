@@ -1,0 +1,85 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+
+  --base: #1e1e2e;
+  --crust: #181926;
+
+  --text: #cad3f5;
+
+  --mauve: #c6a0f6;
+  --peach: #fab387;
+  --red: #f38ba8;
+
+  --sufrace0: #313244;
+  --surface1: #45475a;
+}
+
+body {
+  background-color: var(--crust);
+  color: var(--text);
+}
+
+.flexrow,
+.flexcol {
+  display: flex;
+  align-content: center;
+}
+
+.flexrow {
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.flexcol {
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+
+.header {
+  min-width: 0px;
+  height: 15vh;
+
+  overflow: hidden;
+  font-size: 13vh;
+  text-align: center;
+
+  background-color: var(--base);
+}
+
+.header>p {
+  margin: auto;
+}
+
+.operators {
+  color: var(--peach);
+}
+
+.funcop {
+  color: var(--red);
+}
+
+button {
+  all: unset;
+  width: 18vh;
+  height: 18vh;
+
+  font-size: 6vh;
+  text-align: center;
+
+  background-color: var(--sufrace0);
+  border: None;
+  border-radius: 3px;
+  box-shadow: 0 3px #9399b2;
+}
+
+button:hover {
+  background-color: var(--surface1);
+}
+
+button:active {
+  background-color: #45475a;
+  box-shadow: 0 0px #9399b2;
+  transform: translateY(3px);
+}
