@@ -1,8 +1,8 @@
 [package]
-name = "hackathon_client"
-version = "0.0.0"
-description = "A Tauri App"
-authors = ["you"]
+name = "leptos_calculator"
+version = "1.0.0"
+description = "A Basic Calculator Written in Rust using Leptos Framework"
+authors = ["Rexiel Scarlet"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -11,7 +11,7 @@ edition = "2021"
 tauri-build = { version = "1.5", features = [] }
 
 [dependencies]
-tauri = { version = "1.5", features = ["shell-open"] }
+tauri = { version = "1.5", features = ["shell-open", "config-toml"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 
